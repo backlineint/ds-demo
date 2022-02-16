@@ -1,0 +1,18 @@
+uuid: 98a474d7-85fa-40b0-b8cb-c40213a1af2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - decoupled_preview
+    - node
+    - taxonomy
+_core:
+  default_config_hash: eDvinHAOX0ovB-mnP_YGzfzvEI3SXjFVPRQtcldZeio
+id: pantheon_decoupled
+label: 'Pantheon Decoupled'
+weight: 5
+is_admin: null
+permissions:
+  - 'administer dp_preview_site'
+  - 'administer taxonomy'
+  - 'view all revisions'

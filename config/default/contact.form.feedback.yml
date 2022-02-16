@@ -1,0 +1,14 @@
+uuid: 02198a7f-fa93-4abd-9e4b-994811cf4403
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - brian.perry@pantheon.io
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
