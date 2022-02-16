@@ -1,6 +1,6 @@
 # ds-demo
 
-![CI none](https://img.shields.io/badge/ci-none-orange.svg)
+[![CircleCI](https://circleci.com/gh/backlineint/ds-demo.svg?style=shield)](https://circleci.com/gh/backlineint/ds-demo)
 [![Dashboard ds-demo](https://img.shields.io/badge/dashboard-ds_demo-yellow.svg)](https://dashboard.pantheon.io/sites/9764d3a0-add1-4def-9283-ec4d93328579#dev/code)
 [![Dev Site ds-demo](https://img.shields.io/badge/site-ds_demo-blue.svg)](http://dev-ds-demo.pantheonsite.io/)
 
