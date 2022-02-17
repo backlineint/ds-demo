@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0322e9789090b95797ca12acc37aa477",
+    "content-hash": "1b989620e12c2c154d06b8eff0a30263",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2085,8 +2085,56 @@
             "time": "2022-02-15T20:26:28+00:00"
         },
         {
+            "name": "drupal/decoupled_menus",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/decoupled_menus.git",
+                "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/decoupled_menus-1.0.0-beta1.zip",
+                "reference": "1.0.0-beta1",
+                "shasum": "adcb7725410567f73d32ddd3d72a796ca194d40d"
+            },
+            "require": {
+                "drupal/core": "^9.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta1",
+                    "datestamp": "1616012302",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "gabesullice",
+                    "homepage": "https://www.drupal.org/user/2287430"
+                },
+                {
+                    "name": "nod_",
+                    "homepage": "https://www.drupal.org/user/598310"
+                }
+            ],
+            "description": "Provides decoupled menus",
+            "homepage": "https://www.drupal.org/project/decoupled_menus",
+            "support": {
+                "source": "https://git.drupalcode.org/project/decoupled_menus"
+            }
+        },
+        {
             "name": "drupal/decoupled_preview",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "web/modules/custom/decoupled_preview",
@@ -2688,7 +2736,7 @@
         },
         {
             "name": "drupal/pantheon_decoupled",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "web/modules/custom/pantheon_decoupled",
@@ -4430,7 +4478,7 @@
         },
         {
             "name": "pantheon-upstreams/upstream-configuration",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",
@@ -11760,6 +11808,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/decoupled_menus": 10,
         "drupal/gin": 15
     },
     "prefer-stable": true,

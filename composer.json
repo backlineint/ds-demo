@@ -29,6 +29,7 @@
         "drupal/config_split": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/decoupled_menus": "^1.0@beta",
         "drupal/decoupled_preview": "*",
         "drupal/environment_indicator": "^4.0",
         "drupal/gin": "^3.0@alpha",

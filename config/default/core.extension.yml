@@ -16,6 +16,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  decoupled_menus: 0
   decoupled_preview: 0
   decoupled_router: 0
   demo_umami: 0
