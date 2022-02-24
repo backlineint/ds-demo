@@ -1,0 +1,29 @@
+uuid: 25a8f597-4958-44db-9987-bd94d3ec8ec1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ds_example.body
+    - node.type.ds_example
+  module:
+    - text
+    - user
+id: node.ds_example.default
+targetEntityType: node
+bundle: ds_example
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

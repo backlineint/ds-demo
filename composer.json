@@ -31,6 +31,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/decoupled_menus": "^1.0@beta",
         "drupal/decoupled_preview": "*",
+        "drupal/devel": "^4.1",
         "drupal/environment_indicator": "^4.0",
         "drupal/gin": "^3.0@alpha",
         "drupal/pantheon_advanced_page_cache": "^1.2",

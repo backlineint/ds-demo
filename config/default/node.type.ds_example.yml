@@ -1,0 +1,18 @@
+uuid: be8f4b52-e6b6-4fa9-898d-183ad0532e91
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Drupal State Example'
+type: ds_example
+description: 'A content type used to test various Drupal State test cases.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
